@@ -1,0 +1,10 @@
+# directories
+demo/
+node_modules/
+
+# files
+vue.config.js
+babel.config.js
+*.map
+.env.example
+.env.lib

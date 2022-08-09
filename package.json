@@ -1,0 +1,61 @@
+{
+  "name": "@0xgen/widget",
+  "version": "0.0.1",
+  "description": "The 0xgen widget is a Vue component that can be easily imported into any Vue project.",
+  "main": "dist/@0xgen/widget.umd.min.js",
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gen-io/widget.git"
+  },
+  "scripts": {
+    "dev": "vue-cli-service serve --mode development",
+    "build:release": "vue-cli-service build --mode release",
+    "build:prod": "vue-cli-service build --mode production"
+  },
+  "keywords": [
+    "vue",
+    "Widget",
+    "0xGen",
+    "Exchagne",
+    "Dex"
+  ],
+  "author": "tony <tony@0xgen.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gen-io/widget/issues"
+  },
+  "dependencies": {
+    "@gen-io/gen-sdk": "^0.1.37",
+    "@jup-ag/core": "1.0.0-beta.23",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.44.1",
+    "bignumber.js": "^9.0.2",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^7.3.1",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "babel-plugin-import": "^1.13.3",
+    "webpack-bundle-analyzer": "^4.5.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

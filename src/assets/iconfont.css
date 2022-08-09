@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3384320 */
+  src: url('./iconfont.eot?t=1654171348316'); /* IE9 */
+  src: url('./iconfont.eot?t=1654171348316#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./iconfont.woff2?t=1654171348316') format('woff2'),
+       url('./iconfont.woff?t=1654171348316') format('woff'),
+       url('./iconfont.ttf?t=1654171348316') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-history:before {
+  content: "\e659";
+}
+
+.icon-switch2:before {
+  content: "\e658";
+}
+
+.icon-Light:before {
+  content: "\e69e";
+}
+
+.icon-dark:before {
+  content: "\e64c";
+}
+
+.icon-switch:before {
+  content: "\e655";
+}
+
+.icon-share:before {
+  content: "\e656";
+}
+
+.icon-help:before {
+  content: "\e657";
+}
+
+.icon-setting:before {
+  content: "\e611";
+}
+
+.icon-gas:before {
+  content: "\e69b";
+}
+
+.icon-arrow-down:before {
+  content: "\e649";
+}
+
+.icon-category:before {
+  content: "\e64a";
+}
+
+.icon-arrow-up:before {
+  content: "\e64b";
+}
+
+.icon-add:before {
+  content: "\e64d";
+}
+
+.icon-arrow-down2:before {
+  content: "\e64e";
+}
+
+.icon-close:before {
+  content: "\e64f";
+}
+
+.icon-search:before {
+  content: "\e650";
+}
+
+.icon-stars:before {
+  content: "\e651";
+}
+
+.icon-calculator:before {
+  content: "\e652";
+}
+
+.icon-list:before {
+  content: "\e653";
+}
+
+.icon-time:before {
+  content: "\e654";
+}
+

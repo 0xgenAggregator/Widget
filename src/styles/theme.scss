@@ -1,0 +1,75 @@
+:root {
+  --color-blue: #476ffe;
+  --color-pink: #ffa8dc;
+  --color: #000000;
+  --color-content: rgba(0, 0, 0, 0.6);
+  --color-des: rgba(0, 0, 0, 0.4);
+  --color-des2: rgba(0, 0, 0, 0.2);
+  --color-dark: #131419;
+  --color-tips: rgba(0, 0, 0, 0.1);
+  --color-grey: #646464;
+  --color-red: #cc3535;
+  --color-light: blue;
+  --border-color: #e0dfe2;
+  --button-color: #ffffff;
+  --circle-color: #646464;
+  --option-color: #e1e6f0;
+  --disabled-color: rgba(0, 0, 0, 0.06);
+
+  --background: #e1e6f0;
+  --card: #fafafa;
+  --input: #f3f6fb;
+  --field: #f1f2f5;
+  --scroll: #25262e;
+  --item-hover: rgba(0, 0, 0, 0.03);
+
+  --dialog-mask: rgba(0, 0, 0, 0.8);
+  --dialog-content: rgba(255, 255, 255, 0.1);
+  --dialog-title: #29273d;
+  --dialog-mask: rgba(0, 0, 0, 0.8);
+
+  --select: #e5e6e9;
+  --select-hover: rgba(0, 0, 0, 0.1);
+
+  --space: 20px;
+  --radius-sm: 1px;
+  --radius: 4px;
+
+  .g-dark {
+    --color-blue: #476ffe;
+    --color-pink: #ffa8dc;
+    --color: #ffffff;
+    --color-content: rgba(255, 255, 255, 0.6);
+    --color-des: rgba(255, 255, 255, 0.4);
+    --color-des2: rgba(255, 255, 255, 0.2);
+    --color-dark: #131419;
+    --color-tips: #131419;
+    --color-grey: #5d6577;
+    --color-red: #cc3535;
+    --color-light: blue;
+    --border-color: #24262d;
+    --button-color: #ffffff;
+    --circle-color: #a1a1a3;
+    --option-color: #171b25;
+    --disabled-color: rgba(255, 255, 255, 0.06);
+
+    --background: #26292d;
+    --card: #131419;
+    --input: #20242e;
+    --field: #20242e;
+    --scroll: #25262e;
+    --item-hover: rgba(255, 255, 255, 0.03);
+
+    --dialog-mask: rgba(0, 0, 0, 0.8);
+    --dialog-content: rgba(255, 255, 255, 0.1);
+    --dialog-title: #29273d;
+    --dialog-mask: rgba(0, 0, 0, 0.8);
+
+    --select: #2c2f38;
+    --select-hover: rgba(0, 0, 0, 0.1);
+
+    --space: 20px;
+    --radius-sm: 1px;
+    --radius: 4px;
+  }
+}

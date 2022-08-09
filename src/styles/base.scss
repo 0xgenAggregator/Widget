@@ -1,0 +1,22 @@
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  @media (max-width: 750px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+body {
+  font-family: "Roboto Regular", Helvetica, Arial, "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color);
+  -webkit-tap-highlight-color: transparent;
+}
