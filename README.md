@@ -4,7 +4,7 @@ The 0xgen widget is a Vue component that can be easily imported into any Vue pro
 
 ### Install
 ```javascript
-git clone https://github.com/oxgen/widget.git
+git clone https://github.com/0xgenAggregator/Widget.git
 cd loading
 npm install
 ```
